@@ -16,7 +16,7 @@ class FilmManagerTest {
     void doNotAddFilmTest() {
         FilmManager manager = new FilmManager();
 
-        String[] expected = { };
+        String[] expected = {};
         String[] actual = manager.findAll();
 
         Assertions.assertArrayEquals(expected, actual);
